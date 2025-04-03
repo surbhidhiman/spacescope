@@ -17,10 +17,10 @@ def main():
 
     report = format_full_report(apod_data[0])
 
-    with open("static_site/preview.html", "w", encoding="utf-8") as f:
+    with open("index.html", "w", encoding="utf-8") as f:
         f.write(report)
 
-    print("✅ Preview saved to static_site/preview.html")
+    print("✅ Preview saved to index.html")
 
 
 if __name__ == "__main__":
