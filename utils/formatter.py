@@ -19,6 +19,7 @@ def format_full_report(apod_data):
     <html>
     <head>
         <title>SpaceScope Daily Digest</title>
+        <h3>Note: This is all from NASA's Astronomy Picture of the Day </h3>
     </head>
     <body style="font-family: sans-serif; max-width: 700px; margin: auto;">
         <h1>🚀 SpaceScope Daily Digest</h1>
